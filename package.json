@@ -1,0 +1,30 @@
+{
+  "name": "open-layer-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/rx": "^4.1.2",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/openlayers": "^4.6.21",
+    "@types/proj4": "^2.5.4",
+    "eslint": "^8.52.0",
+    "g": "^2.0.1",
+    "ol": "^8.1.0",
+    "proj4": "^2.9.2"
+  }
+}
